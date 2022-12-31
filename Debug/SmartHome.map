@@ -1,0 +1,991 @@
+Archive member included to satisfy reference by file (symbol)
+
+f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                              F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o (exit)
+f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                              Application/main.o (__do_copy_data)
+f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                              Application/main.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+usersBlu            0xf               Application/main.o
+passes              0xf               Application/main.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .bss           0x00000000        0x0 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .text          0x00000000        0x0 Application/main.o
+ .data          0x00000000        0x0 Application/main.o
+ .bss           0x00000000        0x0 Application/main.o
+ .text          0x00000000        0x0 HAL/AC LAMP/scr/AC_Lamp.o
+ .data          0x00000000        0x0 HAL/AC LAMP/scr/AC_Lamp.o
+ .bss           0x00000000        0x0 HAL/AC LAMP/scr/AC_Lamp.o
+ .text          0x00000000        0x0 HAL/Air Cond/src/AirCon.o
+ .data          0x00000000        0x0 HAL/Air Cond/src/AirCon.o
+ .bss           0x00000000        0x0 HAL/Air Cond/src/AirCon.o
+ .text          0x00000000        0x0 HAL/BLUETOOTH/src/Bluetooth.o
+ .data          0x00000000        0x0 HAL/BLUETOOTH/src/Bluetooth.o
+ .bss           0x00000000        0x0 HAL/BLUETOOTH/src/Bluetooth.o
+ .text.Bluetooth_TransmitString
+                0x00000000        0x6 HAL/BLUETOOTH/src/Bluetooth.o
+ .text.BluetoothCheckIfAlpha
+                0x00000000       0x16 HAL/BLUETOOTH/src/Bluetooth.o
+ .text          0x00000000        0x0 HAL/BUZZER/src/Buzzer.o
+ .data          0x00000000        0x0 HAL/BUZZER/src/Buzzer.o
+ .bss           0x00000000        0x0 HAL/BUZZER/src/Buzzer.o
+ .text.Buzzer_TurnOff
+                0x00000000        0xa HAL/BUZZER/src/Buzzer.o
+ .text          0x00000000        0x0 HAL/DOOR/src/Door.o
+ .data          0x00000000        0x0 HAL/DOOR/src/Door.o
+ .bss           0x00000000        0x0 HAL/DOOR/src/Door.o
+ .text          0x00000000        0x0 HAL/KEYPAD/src/Keypad.o
+ .data          0x00000000        0x0 HAL/KEYPAD/src/Keypad.o
+ .bss           0x00000000        0x0 HAL/KEYPAD/src/Keypad.o
+ .text.GetKey   0x00000000       0xb6 HAL/KEYPAD/src/Keypad.o
+ .data.KeyPad   0x00000000       0x10 HAL/KEYPAD/src/Keypad.o
+ .data.KeyPadCol
+                0x00000000        0x4 HAL/KEYPAD/src/Keypad.o
+ .data.KeyPadRow
+                0x00000000        0x4 HAL/KEYPAD/src/Keypad.o
+ .text          0x00000000        0x0 HAL/LCD/src/LCD.o
+ .data          0x00000000        0x0 HAL/LCD/src/LCD.o
+ .bss           0x00000000        0x0 HAL/LCD/src/LCD.o
+ .text.LCD_Custome_Char
+                0x00000000       0x38 HAL/LCD/src/LCD.o
+ .text          0x00000000        0x0 HAL/LED/src/LED.o
+ .data          0x00000000        0x0 HAL/LED/src/LED.o
+ .bss           0x00000000        0x0 HAL/LED/src/LED.o
+ .text.LED_ON   0x00000000        0x8 HAL/LED/src/LED.o
+ .text.LED_OFF  0x00000000        0x8 HAL/LED/src/LED.o
+ .text          0x00000000        0x0 HAL/LM35 TEMP SEN/src/LM35.o
+ .data          0x00000000        0x0 HAL/LM35 TEMP SEN/src/LM35.o
+ .bss           0x00000000        0x0 HAL/LM35 TEMP SEN/src/LM35.o
+ .text          0x00000000        0x0 MCAL/ADC/src/ADC.o
+ .data          0x00000000        0x0 MCAL/ADC/src/ADC.o
+ .bss           0x00000000        0x0 MCAL/ADC/src/ADC.o
+ .text          0x00000000        0x0 MCAL/DIO/src/DIO.o
+ .data          0x00000000        0x0 MCAL/DIO/src/DIO.o
+ .bss           0x00000000        0x0 MCAL/DIO/src/DIO.o
+ .text.DIO_ConfigureChannel
+                0x00000000      0x104 MCAL/DIO/src/DIO.o
+ .text          0x00000000        0x0 MCAL/DIO/src/DIO_CFG.o
+ .data          0x00000000        0x0 MCAL/DIO/src/DIO_CFG.o
+ .bss           0x00000000        0x0 MCAL/DIO/src/DIO_CFG.o
+ .text          0x00000000        0x0 MCAL/EEPROM/src/EEPROM.o
+ .data          0x00000000        0x0 MCAL/EEPROM/src/EEPROM.o
+ .bss           0x00000000        0x0 MCAL/EEPROM/src/EEPROM.o
+ .text          0x00000000        0x0 MCAL/EINT/src/EINT.o
+ .data          0x00000000        0x0 MCAL/EINT/src/EINT.o
+ .bss           0x00000000        0x0 MCAL/EINT/src/EINT.o
+ .text          0x00000000        0x0 MCAL/GINT/src/GINT.o
+ .data          0x00000000        0x0 MCAL/GINT/src/GINT.o
+ .bss           0x00000000        0x0 MCAL/GINT/src/GINT.o
+ .text          0x00000000        0x0 MCAL/TIMERS/Timer0/src/Timer0.o
+ .data          0x00000000        0x0 MCAL/TIMERS/Timer0/src/Timer0.o
+ .bss           0x00000000        0x0 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_Init
+                0x00000000        0x6 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_Start
+                0x00000000        0x8 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_Stop
+                0x00000000        0x8 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_SetPreload
+                0x00000000        0x4 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_GetPreload
+                0x00000000        0x4 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_EnableInterrupt
+                0x00000000        0x8 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text.TIMER0_DisableInterrupt
+                0x00000000        0x8 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_info    0x00000000      0x123 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_abbrev  0x00000000       0xa3 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_loc     0x00000000       0x21 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_aranges
+                0x00000000       0x50 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_ranges  0x00000000       0x40 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_line    0x00000000       0xfa MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_str     0x00000000      0x1d7 MCAL/TIMERS/Timer0/src/Timer0.o
+ .comment       0x00000000       0x31 MCAL/TIMERS/Timer0/src/Timer0.o
+ .debug_frame   0x00000000       0x84 MCAL/TIMERS/Timer0/src/Timer0.o
+ .text          0x00000000        0x0 MCAL/TIMERS/Timer1/src/Timer1.o
+ .data          0x00000000        0x0 MCAL/TIMERS/Timer1/src/Timer1.o
+ .bss           0x00000000        0x0 MCAL/TIMERS/Timer1/src/Timer1.o
+ .text          0x00000000        0x0 MCAL/USART/src/UART.o
+ .data          0x00000000        0x0 MCAL/USART/src/UART.o
+ .bss           0x00000000        0x0 MCAL/USART/src/UART.o
+ .text.UART_TransmitString
+                0x00000000       0x26 MCAL/USART/src/UART.o
+ .text          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00008000         xr
+data             0x00800060         0x00000800         rw !x
+eeprom           0x00810000         0x00000400         rw !x
+fuse             0x00820000         0x00000002         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+LOAD Application/main.o
+LOAD HAL/AC LAMP/scr/AC_Lamp.o
+LOAD HAL/Air Cond/src/AirCon.o
+LOAD HAL/BLUETOOTH/src/Bluetooth.o
+LOAD HAL/BUZZER/src/Buzzer.o
+LOAD HAL/DOOR/src/Door.o
+LOAD HAL/KEYPAD/src/Keypad.o
+LOAD HAL/LCD/src/LCD.o
+LOAD HAL/LED/src/LED.o
+LOAD HAL/LM35 TEMP SEN/src/LM35.o
+LOAD MCAL/ADC/src/ADC.o
+LOAD MCAL/DIO/src/DIO.o
+LOAD MCAL/DIO/src/DIO_CFG.o
+LOAD MCAL/EEPROM/src/EEPROM.o
+LOAD MCAL/EINT/src/EINT.o
+LOAD MCAL/GINT/src/GINT.o
+LOAD MCAL/TIMERS/Timer0/src/Timer0.o
+LOAD MCAL/TIMERS/Timer1/src/Timer1.o
+LOAD MCAL/USART/src/UART.o
+START GROUP
+LOAD f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+END GROUP
+START GROUP
+LOAD f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a
+LOAD f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a
+LOAD f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libc.a
+LOAD F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5\libatmega32.a
+END GROUP
+                0x00000000                __TEXT_REGION_ORIGIN__ = DEFINED (__TEXT_REGION_ORIGIN__)?__TEXT_REGION_ORIGIN__:0x0
+                [0x00800060]                __DATA_REGION_ORIGIN__ = DEFINED (__DATA_REGION_ORIGIN__)?__DATA_REGION_ORIGIN__:0x800060
+                [0x00008000]                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                [0x00000800]                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xffa0
+                [0x00000400]                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000002]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x1450
+ *(.vectors)
+ .vectors       0x00000000       0x54 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+                0x00000054                . = ALIGN (0x2)
+                0x00000054                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000054        0x0 linker stubs
+ *(.trampolines*)
+                0x00000054                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000054                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000054        0x0 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x00000054                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000054        0xc F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000060       0x16 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_copy_data.o)
+                0x00000060                __do_copy_data
+ .init4         0x00000076       0x10 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_clear_bss.o)
+                0x00000076                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000086        0x8 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ *(.init9)
+ *(.text)
+ .text          0x0000008e        0x4 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+                0x0000008e                __vector_12
+                0x0000008e                __bad_interrupt
+                0x0000008e                __vector_6
+                0x0000008e                __vector_3
+                0x0000008e                __vector_11
+                0x0000008e                __vector_17
+                0x0000008e                __vector_19
+                0x0000008e                __vector_7
+                0x0000008e                __vector_5
+                0x0000008e                __vector_4
+                0x0000008e                __vector_9
+                0x0000008e                __vector_2
+                0x0000008e                __vector_8
+                0x0000008e                __vector_14
+                0x0000008e                __vector_10
+                0x0000008e                __vector_16
+                0x0000008e                __vector_18
+                0x0000008e                __vector_20
+                0x00000092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.checkIfAdmin
+                0x00000092        0xc Application/main.o
+                0x00000092                checkIfAdmin
+ .text.checkIfUser
+                0x0000009e        0xc Application/main.o
+                0x0000009e                checkIfUser
+ .text.checkIfConnected
+                0x000000aa        0xc Application/main.o
+                0x000000aa                checkIfConnected
+ .text.allowKeypad
+                0x000000b6        0xc Application/main.o
+                0x000000b6                allowKeypad
+ .text.main     0x000000c2      0x398 Application/main.o
+                0x000000c2                main
+ .text.__vector_15
+                0x0000045a      0x10a Application/main.o
+                0x0000045a                __vector_15
+ .text.__vector_13
+                0x00000564      0x60c Application/main.o
+                0x00000564                __vector_13
+ .text.__vector_1
+                0x00000b70       0x68 Application/main.o
+                0x00000b70                __vector_1
+ .text.AC_Lamp_Init
+                0x00000bd8       0x2a HAL/AC LAMP/scr/AC_Lamp.o
+                0x00000bd8                AC_Lamp_Init
+ .text.AC_Lamp_On
+                0x00000c02        0xa HAL/AC LAMP/scr/AC_Lamp.o
+                0x00000c02                AC_Lamp_On
+ .text.AC_Lamp_Off
+                0x00000c0c        0xa HAL/AC LAMP/scr/AC_Lamp.o
+                0x00000c0c                AC_Lamp_Off
+ .text.AC_Lamp_Set_Dimming
+                0x00000c16        0xa HAL/AC LAMP/scr/AC_Lamp.o
+                0x00000c16                AC_Lamp_Set_Dimming
+ .text.delayDimming
+                0x00000c20       0x16 HAL/AC LAMP/scr/AC_Lamp.o
+                0x00000c20                delayDimming
+ .text.AirCon_TurnOn
+                0x00000c36        0xa HAL/Air Cond/src/AirCon.o
+                0x00000c36                AirCon_TurnOn
+ .text.AirCon_TurnOff
+                0x00000c40        0xa HAL/Air Cond/src/AirCon.o
+                0x00000c40                AirCon_TurnOff
+ .text.Bluetooth_Init
+                0x00000c4a        0x6 HAL/BLUETOOTH/src/Bluetooth.o
+                0x00000c4a                Bluetooth_Init
+ .text.Bluetooth_Transmit
+                0x00000c50        0x6 HAL/BLUETOOTH/src/Bluetooth.o
+                0x00000c50                Bluetooth_Transmit
+ .text.Bluetooth_Receive
+                0x00000c56        0x6 HAL/BLUETOOTH/src/Bluetooth.o
+                0x00000c56                Bluetooth_Receive
+ .text.Buzzer_TurnOn
+                0x00000c5c        0xa HAL/BUZZER/src/Buzzer.o
+                0x00000c5c                Buzzer_TurnOn
+ .text.DOOR_Init
+                0x00000c66        0xe HAL/DOOR/src/Door.o
+                0x00000c66                DOOR_Init
+ .text.DOOR_Open
+                0x00000c74       0x1c HAL/DOOR/src/Door.o
+                0x00000c74                DOOR_Open
+ .text.DOOR_Close
+                0x00000c90       0x1c HAL/DOOR/src/Door.o
+                0x00000c90                DOOR_Close
+ .text.isButtonPressed
+                0x00000cac       0x34 HAL/KEYPAD/src/Keypad.o
+                0x00000cac                isButtonPressed
+ .text.TempKeypad
+                0x00000ce0       0x32 HAL/KEYPAD/src/Keypad.o
+                0x00000ce0                TempKeypad
+ .text.LCD_Cmd  0x00000d12       0x90 HAL/LCD/src/LCD.o
+                0x00000d12                LCD_Cmd
+ .text.LCD_Init
+                0x00000da2       0x54 HAL/LCD/src/LCD.o
+                0x00000da2                LCD_Init
+ .text.LCD_Char
+                0x00000df6       0x90 HAL/LCD/src/LCD.o
+                0x00000df6                LCD_Char
+ .text.LCD_String
+                0x00000e86       0x26 HAL/LCD/src/LCD.o
+                0x00000e86                LCD_String
+ .text.LCD_SetPos
+                0x00000eac       0x22 HAL/LCD/src/LCD.o
+                0x00000eac                LCD_SetPos
+ .text.LCD_Clear
+                0x00000ece        0x8 HAL/LCD/src/LCD.o
+                0x00000ece                LCD_Clear
+ .text.LED_Toggle
+                0x00000ed6        0x6 HAL/LED/src/LED.o
+                0x00000ed6                LED_Toggle
+ .text.LED_Control
+                0x00000edc       0x92 HAL/LED/src/LED.o
+                0x00000edc                LED_Control
+ .text.LM35_Init
+                0x00000f6e        0x6 HAL/LM35 TEMP SEN/src/LM35.o
+                0x00000f6e                LM35_Init
+ .text.LM35_Read
+                0x00000f74       0x14 HAL/LM35 TEMP SEN/src/LM35.o
+                0x00000f74                LM35_Read
+ .text.ADC_Init
+                0x00000f88       0x2c MCAL/ADC/src/ADC.o
+                0x00000f88                ADC_Init
+ .text.ADC_Read
+                0x00000fb4       0x24 MCAL/ADC/src/ADC.o
+                0x00000fb4                ADC_Read
+ .text.DIO_WriteChannel
+                0x00000fd8      0x104 MCAL/DIO/src/DIO.o
+                0x00000fd8                DIO_WriteChannel
+ .text.DIO_ToggleChannel
+                0x000010dc       0x82 MCAL/DIO/src/DIO.o
+                0x000010dc                DIO_ToggleChannel
+ .text.DIO_ReadChannel
+                0x0000115e       0x70 MCAL/DIO/src/DIO.o
+                0x0000115e                DIO_ReadChannel
+ .text.DIO_ReadPort
+                0x000011ce       0x24 MCAL/DIO/src/DIO.o
+                0x000011ce                DIO_ReadPort
+ .text.DIO_WritePort
+                0x000011f2       0x20 MCAL/DIO/src/DIO.o
+                0x000011f2                DIO_WritePort
+ .text.DIO_Init
+                0x00001212      0x14c MCAL/DIO/src/DIO_CFG.o
+                0x00001212                DIO_Init
+ .text.EEPROM_Write
+                0x0000135e       0x18 MCAL/EEPROM/src/EEPROM.o
+                0x0000135e                EEPROM_Write
+ .text.EEPROM_Read
+                0x00001376       0x12 MCAL/EEPROM/src/EEPROM.o
+                0x00001376                EEPROM_Read
+ .text.Ext_Int_Enable
+                0x00001388       0x24 MCAL/EINT/src/EINT.o
+                0x00001388                Ext_Int_Enable
+ .text.Ext_Int_Disable
+                0x000013ac       0x24 MCAL/EINT/src/EINT.o
+                0x000013ac                Ext_Int_Disable
+ .text.Ext_Int_SC
+                0x000013d0       0x42 MCAL/EINT/src/EINT.o
+                0x000013d0                Ext_Int_SC
+ .text.Globle_Int_Enable
+                0x00001412        0x8 MCAL/GINT/src/GINT.o
+                0x00001412                Globle_Int_Enable
+ .text.TIMER1_Init
+                0x0000141a        0xe MCAL/TIMERS/Timer1/src/Timer1.o
+                0x0000141a                TIMER1_Init
+ .text.TIMER1_Set_ICR
+                0x00001428        0x6 MCAL/TIMERS/Timer1/src/Timer1.o
+                0x00001428                TIMER1_Set_ICR
+ .text.TIMER1_Set_OCR1A
+                0x0000142e        0x6 MCAL/TIMERS/Timer1/src/Timer1.o
+                0x0000142e                TIMER1_Set_OCR1A
+ .text.UART_Init
+                0x00001434       0x10 MCAL/USART/src/UART.o
+                0x00001434                UART_Init
+ .text.UART_Transmit
+                0x00001444        0x4 MCAL/USART/src/UART.o
+                0x00001444                UART_Transmit
+ .text.UART_Receive
+                0x00001448        0x4 MCAL/USART/src/UART.o
+                0x00001448                UART_Receive
+                0x0000144c                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000144c        0x0 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x0000144c                _exit
+                0x0000144c                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000144c        0x4 f:/atmel/studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x00001450                _etext = .
+
+.data           0x00800060      0x19a load address 0x00001450
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ *(.data*)
+ .data.lcdReset
+                0x00800060        0x1 Application/main.o
+                0x00800060                lcdReset
+ .data.getUsername
+                0x00800061        0x1 Application/main.o
+                0x00800061                getUsername
+ .data.userPassTemp
+                0x00800062        0x5 Application/main.o
+                0x00800062                userPassTemp
+ .data.userTemp
+                0x00800067        0x5 Application/main.o
+                0x00800067                userTemp
+ .data.usersHard
+                0x0080006c        0xf Application/main.o
+                0x0080006c                usersHard
+ .data.PinCfg   0x0080007b       0x40 MCAL/DIO/src/DIO_CFG.o
+                0x0080007b                PinCfg
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x008000bb       0xf3 Application/main.o
+ .rodata.str1.1
+                0x008001ae       0x4b HAL/LED/src/LED.o
+ *(.gnu.linkonce.r*)
+                0x008001fa                . = ALIGN (0x2)
+ *fill*         0x008001f9        0x1 
+                0x008001fa                _edata = .
+                0x008001fa                PROVIDE (__data_end, .)
+
+.bss            0x008001fa       0x3b
+                0x008001fa                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.TempReading
+                0x008001fa        0x1 Application/main.o
+                0x008001fa                TempReading
+ .bss.keypadallowed
+                0x008001fb        0x1 Application/main.o
+                0x008001fb                keypadallowed
+ .bss.keypadUser
+                0x008001fc        0x1 Application/main.o
+                0x008001fc                keypadUser
+ .bss.Alarm     0x008001fd        0x1 Application/main.o
+                0x008001fd                Alarm
+ .bss.Lamp      0x008001fe        0x1 Application/main.o
+                0x008001fe                Lamp
+ .bss.keypadInput
+                0x008001ff        0x2 Application/main.o
+                0x008001ff                keypadInput
+ .bss.ButtonPressed
+                0x00800201        0x1 Application/main.o
+                0x00800201                ButtonPressed
+ .bss.dimming   0x00800202        0x1 Application/main.o
+                0x00800202                dimming
+ .bss.temp      0x00800203        0x2 Application/main.o
+                0x00800203                temp
+ .bss.counterTwo
+                0x00800205        0x1 Application/main.o
+                0x00800205                counterTwo
+ .bss.counter   0x00800206        0x1 Application/main.o
+                0x00800206                counter
+ .bss.keypad    0x00800207        0x1 Application/main.o
+                0x00800207                keypad
+ .bss.door      0x00800208        0x1 Application/main.o
+                0x00800208                door
+ .bss.lights    0x00800209        0x1 Application/main.o
+                0x00800209                lights
+ .bss.editPasses
+                0x0080020a        0x3 Application/main.o
+                0x0080020a                editPasses
+ .bss.deltUser  0x0080020d        0x3 Application/main.o
+                0x0080020d                deltUser
+ .bss.editUser  0x00800210        0x3 Application/main.o
+                0x00800210                editUser
+ .bss.editUsers
+                0x00800213        0x1 Application/main.o
+                0x00800213                editUsers
+ .bss.UserMode  0x00800214        0x1 Application/main.o
+                0x00800214                UserMode
+ .bss.AdminMode
+                0x00800215        0x1 Application/main.o
+                0x00800215                AdminMode
+ .bss.connected
+                0x00800216        0x1 Application/main.o
+                0x00800216                connected
+ *(COMMON)
+ COMMON         0x00800217       0x1e Application/main.o
+                0x00800217                usersBlu
+                0x00800226                passes
+                0x00800235                PROVIDE (__bss_end, .)
+                0x00001450                __data_load_start = LOADADDR (.data)
+                0x000015ea                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800235        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x00800235                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x30
+ *(.comment)
+ .comment       0x00000000       0x30 Application/main.o
+                                 0x31 (size before relaxing)
+ .comment       0x00000030       0x31 HAL/AC LAMP/scr/AC_Lamp.o
+ .comment       0x00000030       0x31 HAL/Air Cond/src/AirCon.o
+ .comment       0x00000030       0x31 HAL/BLUETOOTH/src/Bluetooth.o
+ .comment       0x00000030       0x31 HAL/BUZZER/src/Buzzer.o
+ .comment       0x00000030       0x31 HAL/DOOR/src/Door.o
+ .comment       0x00000030       0x31 HAL/KEYPAD/src/Keypad.o
+ .comment       0x00000030       0x31 HAL/LCD/src/LCD.o
+ .comment       0x00000030       0x31 HAL/LED/src/LED.o
+ .comment       0x00000030       0x31 HAL/LM35 TEMP SEN/src/LM35.o
+ .comment       0x00000030       0x31 MCAL/ADC/src/ADC.o
+ .comment       0x00000030       0x31 MCAL/DIO/src/DIO.o
+ .comment       0x00000030       0x31 MCAL/DIO/src/DIO_CFG.o
+ .comment       0x00000030       0x31 MCAL/EEPROM/src/EEPROM.o
+ .comment       0x00000030       0x31 MCAL/EINT/src/EINT.o
+ .comment       0x00000030       0x31 MCAL/GINT/src/GINT.o
+ .comment       0x00000030       0x31 MCAL/TIMERS/Timer1/src/Timer1.o
+ .comment       0x00000030       0x31 MCAL/USART/src/UART.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x3c
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x3c F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x3a8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x58 Application/main.o
+ .debug_aranges
+                0x00000058       0x40 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_aranges
+                0x00000098       0x28 HAL/Air Cond/src/AirCon.o
+ .debug_aranges
+                0x000000c0       0x40 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_aranges
+                0x00000100       0x28 HAL/BUZZER/src/Buzzer.o
+ .debug_aranges
+                0x00000128       0x30 HAL/DOOR/src/Door.o
+ .debug_aranges
+                0x00000158       0x30 HAL/KEYPAD/src/Keypad.o
+ .debug_aranges
+                0x00000188       0x50 HAL/LCD/src/LCD.o
+ .debug_aranges
+                0x000001d8       0x38 HAL/LED/src/LED.o
+ .debug_aranges
+                0x00000210       0x28 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_aranges
+                0x00000238       0x28 MCAL/ADC/src/ADC.o
+ .debug_aranges
+                0x00000260       0x48 MCAL/DIO/src/DIO.o
+ .debug_aranges
+                0x000002a8       0x20 MCAL/DIO/src/DIO_CFG.o
+ .debug_aranges
+                0x000002c8       0x28 MCAL/EEPROM/src/EEPROM.o
+ .debug_aranges
+                0x000002f0       0x30 MCAL/EINT/src/EINT.o
+ .debug_aranges
+                0x00000320       0x20 MCAL/GINT/src/GINT.o
+ .debug_aranges
+                0x00000340       0x30 MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_aranges
+                0x00000370       0x38 MCAL/USART/src/UART.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x3f9a
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x4e6 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_info    0x000004e6     0x132e Application/main.o
+ .debug_info    0x00001814      0x3d6 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_info    0x00001bea      0x1c8 HAL/Air Cond/src/AirCon.o
+ .debug_info    0x00001db2      0x1e6 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_info    0x00001f98      0x1c8 HAL/BUZZER/src/Buzzer.o
+ .debug_info    0x00002160      0x1f6 HAL/DOOR/src/Door.o
+ .debug_info    0x00002356      0x3d9 HAL/KEYPAD/src/Keypad.o
+ .debug_info    0x0000272f      0x873 HAL/LCD/src/LCD.o
+ .debug_info    0x00002fa2      0x349 HAL/LED/src/LED.o
+ .debug_info    0x000032eb      0x156 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_info    0x00003441      0x123 MCAL/ADC/src/ADC.o
+ .debug_info    0x00003564      0x366 MCAL/DIO/src/DIO.o
+ .debug_info    0x000038ca      0x250 MCAL/DIO/src/DIO_CFG.o
+ .debug_info    0x00003b1a       0xcb MCAL/EEPROM/src/EEPROM.o
+ .debug_info    0x00003be5      0x142 MCAL/EINT/src/EINT.o
+ .debug_info    0x00003d27       0x74 MCAL/GINT/src/GINT.o
+ .debug_info    0x00003d9b       0xd6 MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_info    0x00003e71      0x129 MCAL/USART/src/UART.o
+
+.debug_abbrev   0x00000000     0x14b2
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x4a3 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_abbrev  0x000004a3      0x1d0 Application/main.o
+ .debug_abbrev  0x00000673      0x14c HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_abbrev  0x000007bf       0x87 HAL/Air Cond/src/AirCon.o
+ .debug_abbrev  0x00000846      0x11b HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_abbrev  0x00000961       0x87 HAL/BUZZER/src/Buzzer.o
+ .debug_abbrev  0x000009e8       0xef HAL/DOOR/src/Door.o
+ .debug_abbrev  0x00000ad7      0x18d HAL/KEYPAD/src/Keypad.o
+ .debug_abbrev  0x00000c64      0x19c HAL/LCD/src/LCD.o
+ .debug_abbrev  0x00000e00       0xbd HAL/LED/src/LED.o
+ .debug_abbrev  0x00000ebd       0xd9 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_abbrev  0x00000f96       0x9f MCAL/ADC/src/ADC.o
+ .debug_abbrev  0x00001035       0xdb MCAL/DIO/src/DIO.o
+ .debug_abbrev  0x00001110       0xb9 MCAL/DIO/src/DIO_CFG.o
+ .debug_abbrev  0x000011c9       0x8b MCAL/EEPROM/src/EEPROM.o
+ .debug_abbrev  0x00001254       0x92 MCAL/EINT/src/EINT.o
+ .debug_abbrev  0x000012e6       0x4f MCAL/GINT/src/GINT.o
+ .debug_abbrev  0x00001335       0xa1 MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_abbrev  0x000013d6       0xdc MCAL/USART/src/UART.o
+
+.debug_line     0x00000000     0x2327
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000      0x116 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_line    0x00000116      0xc5e Application/main.o
+ .debug_line    0x00000d74      0x218 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_line    0x00000f8c       0xac HAL/Air Cond/src/AirCon.o
+ .debug_line    0x00001038      0x118 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_line    0x00001150       0xaa HAL/BUZZER/src/Buzzer.o
+ .debug_line    0x000011fa      0x158 HAL/DOOR/src/Door.o
+ .debug_line    0x00001352      0x236 HAL/KEYPAD/src/Keypad.o
+ .debug_line    0x00001588      0x33d HAL/LCD/src/LCD.o
+ .debug_line    0x000018c5      0x16e HAL/LED/src/LED.o
+ .debug_line    0x00001a33       0xb3 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_line    0x00001ae6       0xde MCAL/ADC/src/ADC.o
+ .debug_line    0x00001bc4      0x282 MCAL/DIO/src/DIO.o
+ .debug_line    0x00001e46      0x10d MCAL/DIO/src/DIO_CFG.o
+ .debug_line    0x00001f53       0xc1 MCAL/EEPROM/src/EEPROM.o
+ .debug_line    0x00002014      0x122 MCAL/EINT/src/EINT.o
+ .debug_line    0x00002136       0x65 MCAL/GINT/src/GINT.o
+ .debug_line    0x0000219b       0xae MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_line    0x00002249       0xde MCAL/USART/src/UART.o
+
+.debug_frame    0x00000000      0x6c0
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x194 Application/main.o
+ .debug_frame   0x00000194       0x64 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_frame   0x000001f8       0x34 HAL/Air Cond/src/AirCon.o
+ .debug_frame   0x0000022c       0x64 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_frame   0x00000290       0x34 HAL/BUZZER/src/Buzzer.o
+ .debug_frame   0x000002c4       0x44 HAL/DOOR/src/Door.o
+ .debug_frame   0x00000308       0x6c HAL/KEYPAD/src/Keypad.o
+ .debug_frame   0x00000374       0xb4 HAL/LCD/src/LCD.o
+ .debug_frame   0x00000428       0x54 HAL/LED/src/LED.o
+ .debug_frame   0x0000047c       0x34 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_frame   0x000004b0       0x34 MCAL/ADC/src/ADC.o
+ .debug_frame   0x000004e4       0x74 MCAL/DIO/src/DIO.o
+ .debug_frame   0x00000558       0x24 MCAL/DIO/src/DIO_CFG.o
+ .debug_frame   0x0000057c       0x34 MCAL/EEPROM/src/EEPROM.o
+ .debug_frame   0x000005b0       0x44 MCAL/EINT/src/EINT.o
+ .debug_frame   0x000005f4       0x24 MCAL/GINT/src/GINT.o
+ .debug_frame   0x00000618       0x44 MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_frame   0x0000065c       0x64 MCAL/USART/src/UART.o
+
+.debug_str      0x00000000      0xd45
+ *(.debug_str)
+ .debug_str     0x00000000      0x196 F:/Atmel/Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
+ .debug_str     0x00000196      0x6a8 Application/main.o
+                                0x6fa (size before relaxing)
+ .debug_str     0x0000083e       0xc4 HAL/AC LAMP/scr/AC_Lamp.o
+                                0x49d (size before relaxing)
+ .debug_str     0x00000902       0x1d HAL/Air Cond/src/AirCon.o
+                                0x387 (size before relaxing)
+ .debug_str     0x0000091f       0x90 HAL/BLUETOOTH/src/Bluetooth.o
+                                0x24c (size before relaxing)
+ .debug_str     0x000009af       0x2a HAL/BUZZER/src/Buzzer.o
+                                0x385 (size before relaxing)
+ .debug_str     0x000009d9       0x43 HAL/DOOR/src/Door.o
+                                0x218 (size before relaxing)
+ .debug_str     0x00000a1c       0x65 HAL/KEYPAD/src/Keypad.o
+                                0x43a (size before relaxing)
+ .debug_str     0x00000a81       0x98 HAL/LCD/src/LCD.o
+                                0x479 (size before relaxing)
+ .debug_str     0x00000b19       0x4b HAL/LED/src/LED.o
+                                0x223 (size before relaxing)
+ .debug_str     0x00000b64       0x4d HAL/LM35 TEMP SEN/src/LM35.o
+                                0x23f (size before relaxing)
+ .debug_str     0x00000bb1       0x1b MCAL/ADC/src/ADC.o
+                                0x227 (size before relaxing)
+ .debug_str     0x00000bcc       0x82 MCAL/DIO/src/DIO.o
+                                0x41f (size before relaxing)
+ .debug_str     0x00000c4e       0x32 MCAL/DIO/src/DIO_CFG.o
+                                0x3c3 (size before relaxing)
+ .debug_str     0x00000c80       0x2b MCAL/EEPROM/src/EEPROM.o
+                                0x16e (size before relaxing)
+ .debug_str     0x00000cab       0x41 MCAL/EINT/src/EINT.o
+                                0x1d9 (size before relaxing)
+ .debug_str     0x00000cec       0x18 MCAL/GINT/src/GINT.o
+                                0x14f (size before relaxing)
+ .debug_str     0x00000d04       0x28 MCAL/TIMERS/Timer1/src/Timer1.o
+                                0x180 (size before relaxing)
+ .debug_str     0x00000d2c       0x19 MCAL/USART/src/UART.o
+                                0x1d4 (size before relaxing)
+
+.debug_loc      0x00000000     0x1b0d
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x5dc Application/main.o
+ .debug_loc     0x000005dc       0xb4 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_loc     0x00000690       0xa1 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_loc     0x00000731       0x90 HAL/DOOR/src/Door.o
+ .debug_loc     0x000007c1      0x214 HAL/KEYPAD/src/Keypad.o
+ .debug_loc     0x000009d5      0x595 HAL/LCD/src/LCD.o
+ .debug_loc     0x00000f6a       0xe8 HAL/LED/src/LED.o
+ .debug_loc     0x00001052       0x54 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_loc     0x000010a6       0x58 MCAL/ADC/src/ADC.o
+ .debug_loc     0x000010fe      0x674 MCAL/DIO/src/DIO.o
+ .debug_loc     0x00001772      0x167 MCAL/DIO/src/DIO_CFG.o
+ .debug_loc     0x000018d9       0x4c MCAL/EEPROM/src/EEPROM.o
+ .debug_loc     0x00001925      0x157 MCAL/EINT/src/EINT.o
+ .debug_loc     0x00001a7c       0x91 MCAL/USART/src/UART.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x00000000      0x300
+ *(.debug_ranges)
+ .debug_ranges  0x00000000       0xa8 Application/main.o
+ .debug_ranges  0x000000a8       0x30 HAL/AC LAMP/scr/AC_Lamp.o
+ .debug_ranges  0x000000d8       0x18 HAL/Air Cond/src/AirCon.o
+ .debug_ranges  0x000000f0       0x48 HAL/BLUETOOTH/src/Bluetooth.o
+ .debug_ranges  0x00000138       0x18 HAL/BUZZER/src/Buzzer.o
+ .debug_ranges  0x00000150       0x20 HAL/DOOR/src/Door.o
+ .debug_ranges  0x00000170       0x20 HAL/KEYPAD/src/Keypad.o
+ .debug_ranges  0x00000190       0x40 HAL/LCD/src/LCD.o
+ .debug_ranges  0x000001d0       0x28 HAL/LED/src/LED.o
+ .debug_ranges  0x000001f8       0x18 HAL/LM35 TEMP SEN/src/LM35.o
+ .debug_ranges  0x00000210       0x18 MCAL/ADC/src/ADC.o
+ .debug_ranges  0x00000228       0x38 MCAL/DIO/src/DIO.o
+ .debug_ranges  0x00000260       0x10 MCAL/DIO/src/DIO_CFG.o
+ .debug_ranges  0x00000270       0x18 MCAL/EEPROM/src/EEPROM.o
+ .debug_ranges  0x00000288       0x20 MCAL/EINT/src/EINT.o
+ .debug_ranges  0x000002a8       0x10 MCAL/GINT/src/GINT.o
+ .debug_ranges  0x000002b8       0x20 MCAL/TIMERS/Timer1/src/Timer1.o
+ .debug_ranges  0x000002d8       0x28 MCAL/USART/src/UART.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(SmartHome.elf elf32-avr)
+LOAD linker stubs
